@@ -10,23 +10,24 @@ function draw()
 {
   
   background('white');
-if(keyDown(UP_ARROW)){
 
+  if(keyDown(UP_ARROW)){
+background('blue')
 banana.y=banana.y-5
 }
 if(keyDown(DOWN_ARROW)){
-
+background('green');
 
   banana.y=banana.y+5
 }
 
 if(keyDown(LEFT_ARROW)){
-
+background('red');
   banana.x=banana.x-5
 }
 
 if(keyDown(RIGHT_ARROW)){
-
+background('orange');
 banana.x=banana.x+5
 }
 
